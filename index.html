@@ -8,25 +8,104 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-<div class="jumbotron text-center">
-  <h1>Korean Air Contact App Download</h1>
-  <p>You can get 'Korean Air' Contact app now!</p> 
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <h3>iOS</h3>
-      <p>Requires iOS 9 or later</p>
-      <ul>
-        <li>임원 주소록 관리 앱</li>
-      </ul>
-      <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/hyukjukim/samplecontact/master/download/contacts.plist" role="button">Download</a>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">mHanway</a>
+				<a class="navbar-brand topnav" href="index_en.html">ENG</a>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="download"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Contacts Download</h1>
+                        <br>
+                        <h3>주소록 앱을 설치하시어<br> 임원 주소록 정보를 한번에 저장해 보세요.</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/hyukjukim/samplecontact/master/download/contacts.plist" class="btn btn-default btn-lg"> <span class="network-name"><i class="fa fa-apple fa-fw"></i> Download - iPhone App</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
     </div>
-  </div>
-</div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+    <a  name="install_guide_ios"></a>
+    <div class="guide">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="guide-header">시작하기 (iOS)</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <p>
+                        <ol class="ol-lead">
+                            <li><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/hyukjukim/samplecontact/master/download/contacts.plist">앱 다운로드</a></li>
+                            <li>설정&nbsp;&gt;&nbsp;일반&nbsp;&gt;&nbsp;프로파일 및 기기 관리&nbsp;-&gt;&nbsp;"KOREAN AIR LINES.CO., LTD."&nbsp;-&gt;&nbsp;"KOREAN AIR LINES.CO., LTD. 신뢰함" 클릭&nbsp;-&gt;&nbsp;신뢰 클릭</li>
+                            <li>앱 실행 후 사용</li>
+                        </ol>
+                    </p>
+                </div>
+			</div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.guide -->
+
+
+
+	<a  name="features"></a>
+
+
+    <!-- /.content-section-b -->
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright text-muted small">Copyright &copy; Korean Air 2017. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
