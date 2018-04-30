@@ -1,4 +1,4 @@
-<!-- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 
@@ -12,7 +12,7 @@
                                         <key>kind</key>
                                         <string>software-package</string>
                                         <key>url</key>
-                                        <string>https://raw.githubusercontent.com/hyukjukim/samplecontact/master/download/contacts.ipa</string>
+                                        <string>https://raw.githubusercontent.com/hyukjukim/samplecontact/master/download/KalContacts.ipa</string>
                                 </dict>
                         </array>
                         <key>metadata</key>
@@ -34,4 +34,4 @@
 
 
 
- -->
+
