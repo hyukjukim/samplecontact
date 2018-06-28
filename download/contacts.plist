@@ -12,7 +12,7 @@
                                         <key>kind</key>
                                         <string>software-package</string>
                                         <key>url</key>
-                                        <string>https://raw.githubusercontent.com/hyukjukim/samplecontact/master/download/KalContacts.ipa</string>
+                                        <string>https://raw.githubusercontent.com/hyukjukim/samplecontact/master/download/KalmanContacts.ipa</string>
                                 </dict>
                         </array>
                         <key>metadata</key>
